@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CarBuyingSystem.Common\PlaneBuyingSystem.Common.csproj" />
+    <ProjectReference Include="..\PlaneBuyingSystem.Data.Models\PlaneBuyingSystem.Data.Models.csproj" />
+    <ProjectReference Include="..\PlaneBuyingSystem.Data\PlaneBuyingSystem.Data.csproj" />
+    <ProjectReference Include="..\PlaneBuyingSystem.Web.ViewModels\PlaneBuyingSystem.Web.ViewModels.csproj" />
+    <ProjectReference Include="..\PlatinumStars\PlatinumStars.csproj" />
+  </ItemGroup>
+
+</Project>
